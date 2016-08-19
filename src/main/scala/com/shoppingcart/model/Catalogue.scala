@@ -15,3 +15,11 @@ object Orange extends CatalogueItem {
   override def price: Double = 0.25
 }
 
+
+class  ShoppingCart(val items: List[CatalogueItem])
+
+object ShoppingCart{
+
+  def amount(shoppingCart: ShoppingCart) = shoppingCart.items.foldLeft(0.0)((acc, item) => acc + item.price)
+
+}
