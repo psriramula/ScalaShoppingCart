@@ -14,6 +14,9 @@ object Offers {
     (apples / 2 * Apple.price)
   }
 
-
+  val orangesOffer: Offer = (checkOutSystem) => {
+    val oranges = checkOutSystem.items.collect{case o @ Orange => o}.size
+    (oranges / 3 * Orange.price)
+  }
 
 }
