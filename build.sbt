@@ -1,4 +1,4 @@
-name := "ScalaAssignment3"
+name := "ScalaShoppingCart"
 
 version := "1.0"
 
