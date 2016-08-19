@@ -47,4 +47,9 @@ class CatalogueSpec extends UnitSpec {
     result should be(0.75 )
   }
 
+  s"Shopping Cart with three Oranges with buy one, get one free on Apples and OrangesOffer" should s"be 0.50  " in {
+    val result = CheckOutSystem.amount(Fixture.shoppingWithThreeOranges )(Offers.applesOffer :: Offers.orangesOffer :: Nil)
+    result should be(0.50 )
+  }
+
 }
