@@ -21,7 +21,7 @@ class CatalogueSpec extends UnitSpec {
   }
 
   s"Shopping Cart with no items amount" should s"be 0.00" in {
-    val result = ShoppingCart.amount(Fixture.shoppingCartWithNoItems)
+    val result = CheckOutSystem.amount(Fixture.shoppingCartWithNoItems.items)
     result should be(0.0)
   }
 

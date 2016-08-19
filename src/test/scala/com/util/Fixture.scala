@@ -1,6 +1,6 @@
 package com.util
 
-import com.shoppingcart.model.{ShoppingCart, CatalogueItem}
+import com.shoppingcart.model.{CheckOutSystem, CatalogueItem}
 
 /**
  * Created by prasadsriramula on 19/08/2016.
@@ -9,7 +9,7 @@ import com.shoppingcart.model.{ShoppingCart, CatalogueItem}
 
 object Fixture {
 
-  val shoppingCartWithNoItems = new ShoppingCart( List.empty[CatalogueItem])
+  val shoppingCartWithNoItems = new CheckOutSystem( List.empty[CatalogueItem])
 
 
 }
