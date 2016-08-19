@@ -1,17 +1,40 @@
-*.class
-*.log
+.*
 
-# sbt specific
+!.gitignore
+
 .cache
+/.classpath
+db
+dist
+.DS_Store
+**/*.DS_Store
+eclipse
+*.eml
 .history
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+.idea
+/.idea_modules
+*.iml
+lib
+lib_managed
+log
+logs
+modules
+/out
+precompiled
+/.project
+project/project
+project/target
+/RUNNING_PID
+server.pid
+/.settings
+target
+.target
+test-result
+tmp
+.idea_modules
+bin
+node_modules
+*.map
+.sass-cache
+.DS_Store
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
