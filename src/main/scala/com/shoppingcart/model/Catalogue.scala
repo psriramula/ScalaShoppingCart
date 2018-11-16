@@ -8,11 +8,11 @@ sealed trait CatalogueItem {
 }
 
 object Apple extends CatalogueItem {
-  override def price: Double = 0.60
+  override def price  = 0.60
 }
 
 object Orange extends CatalogueItem {
-  override def price: Double = 0.25
+  override def price  = 0.25
 }
 
 

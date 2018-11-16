@@ -13,6 +13,8 @@ object Fixture {
 
   val shoppingWithTwoApples = new CheckOutSystem(List(Apple,Apple))
 
+  val shoppingWithThreeApples = new CheckOutSystem(List(Apple,Apple,Apple))
+
   val shoppingWithTwoApplesWithOffer = new CheckOutSystem(List(Apple,Apple))
 
   val shoppingWithThreeOranges = new CheckOutSystem(List(Orange,Orange,Orange))
